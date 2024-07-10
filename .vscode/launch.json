@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hasmap",
+            "request": "launch",
+            "mainClass": "Hasing.hasmap",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "dynamicdatainter",
             "request": "launch",
             "mainClass": "genric.dynamicdatainter",
