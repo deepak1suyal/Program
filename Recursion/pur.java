@@ -40,8 +40,8 @@ return ;
     }
      
     }
+
     public static void fno(ArrayList<Integer> arr,boolean[] v,Set<ArrayList<Integer>> hs, ArrayList<ArrayList<Integer>> r,ArrayList<Integer> ar){
-          
           if(ar.size()==arr.size()){
               if(!hs.contains(ar)){
                   hs.add(new ArrayList(ar));
@@ -59,29 +59,17 @@ return ;
               v[i]=false;
               ar.remove(ar.size()-1);
                      }
-          
-          
-          
-          
-          
       }
     public static void main(String[] args) {
         int a[]={1,2,3};
         ArrayList<ArrayList<Integer>> r=new ArrayList<>();
         ArrayList<Integer> ar=new ArrayList<>();
-      
-
          // Collections.sort(arr);
-    
-        
         boolean[] visit=new boolean[9];
-        Set<ArrayList<Integer>> hs=new HashSet<>();
-        
-           
+        Set<ArrayList<Integer>> hs=new HashSet<>();      
      //  fno(arr,9,0,ar,r,hs);
        // fno(arr,visit,hs,r,ar);
         fn(a,a.length,0,ar,r,hs);
-       
         System.out.println(r);
         System.out.println(c);
     }

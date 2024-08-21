@@ -24,8 +24,6 @@ g[2].add(new pair(2, 4, 3));
 g[3].add(new pair(3, 5, 1));
 g[4].add(new pair(4, 3, 2));
 g[4].add(new pair(4, 5, 5));
-
-
     }
     static class p implements Comparable<p>{
         int node;
@@ -34,7 +32,7 @@ g[4].add(new pair(4, 5, 5));
             this.node=n;
             this.cost=c;
         }
-       public int compareTo(p i){
+        public int compareTo(p i){
         return this.cost-i.cost;
         }
     }
@@ -52,10 +50,7 @@ g[4].add(new pair(4, 5, 5));
         }
             pq.add(new p(g[u.node].get(i).d,g[u.node].get(i).w));
         }
-
-
        }}
-
     }
     
     public static void main(String[] args) {
@@ -72,3 +67,4 @@ for(int i=0;i<weight.length;i++)
 System.out.println(weight[i]);
     }
 }
+

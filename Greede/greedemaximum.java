@@ -18,14 +18,11 @@ public static class meet{
 }
 public static class meeting implements Comparator<meet>{
     public int compare(meet m1,meet m2){
-     
 if(m1.f>m2.f)
 return 1;
 else if(m1.f<m2.f)
 return -1;
 else return 0;
-
-
     }
 
 }

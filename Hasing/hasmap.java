@@ -20,9 +20,7 @@ public class hasmap {
         for(int i=0;i<arr.length;i++){
             if(set.containsKey(arr[i])){
                 int a=set.get(arr[i]);
-                a+=arr[i];
-             
-               
+                a+=arr[i];  
                 set.put(arr[i],a);
             }
             else {

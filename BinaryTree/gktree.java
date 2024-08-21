@@ -17,13 +17,13 @@ class Solution
 static int w=1;
     void level(Node r,int ce) {
        if(r==null){
-         return ;  
+         return;  
        }
        if(w==0)
        return;
        if(r.left==null&&r.right==null){
            if(l==-1){l=ce;
-               return ;
+               return;
            }
            else {if(l!=ce){
                w=0;
@@ -42,12 +42,10 @@ static int w=1;
     
     boolean check(Node root)
     {
-        
       level(root,0);
       if(w==1)
        return true;
        else  return false;
-       
 	// Your code here	
     }
 }

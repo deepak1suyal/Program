@@ -25,7 +25,6 @@ return dp[l][s]=p+n;
       Arrays.fill(dp[i],-1); 
      // System.out.println(fn(a,2,4,dp));
      //moization
-
      int cur[]=new int[5];
     int pre[]=new int [5];
      for(int j=0;j<5;j++)
