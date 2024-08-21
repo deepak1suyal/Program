@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "runable",
+            "request": "launch",
+            "mainClass": "Thread.runable",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "applecom",
             "request": "launch",
             "mainClass": "comparable.applecom",
