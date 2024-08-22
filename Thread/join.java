@@ -1,5 +1,7 @@
 package Thread;
-class app2 implements Runnable{
+
+
+class app6 implements Runnable{
 
     @Override
     public void run() {
@@ -13,7 +15,7 @@ class app2 implements Runnable{
 
 }
 
-class app1 implements Runnable{
+class app5 implements Runnable{
 
     @Override
     public void run() {
@@ -22,18 +24,20 @@ class app1 implements Runnable{
         for (int i=0;i<50;i++){
            
         System.out.println("App1");
-        Thread.yield();//It will give chanse to next Thread (App2)
+        
     }
     }
 
 }
-public class yeld  {
-    public static void main(String[] args) {
-        
-        Thread a=new Thread(new app1());
+public class join {
+    public static void main(String[] args) throws InterruptedException {
+        Thread a=new Thread(new app5());
         a.start();
-        Thread a1=new Thread(new app2());
-        a1.start();
+        a.join();
+        Thread a1=new Thread(new app6());
         
+        a1.start(); 
+        a1.join();
+     System.out.println("Hi");
     }
 }
