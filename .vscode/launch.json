@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lamada",
+            "request": "launch",
+            "mainClass": "LamdaExpress.lamada",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "lamd",
+            "request": "launch",
+            "mainClass": "LamdaExpress.LamdaExpression.java.lamd",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "lamd",
+            "request": "launch",
+            "mainClass": "LamdaExpression.LamdaExpression.java.lamd",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "gfgl",
+            "request": "launch",
+            "mainClass": "Linklist.gfgl",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "lamd",
+            "request": "launch",
+            "mainClass": "lamd",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "lamda",
+            "request": "launch",
+            "mainClass": "lamda",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "join",
             "request": "launch",
             "mainClass": "Thread.join",

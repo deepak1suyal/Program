@@ -35,9 +35,8 @@ public class join {
         a.start();
         a.join();
         Thread a1=new Thread(new app6());
-        
         a1.start(); 
-        a1.join();
+        a1.join();//It will ensure that the task will end of the thread
      System.out.println("Hi");
     }
 }
