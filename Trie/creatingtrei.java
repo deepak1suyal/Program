@@ -51,7 +51,7 @@ public static boolean searchword(String word){
 //main function
     public static void main(String[] args) {
     
-        String words[]={"the","a","their","but"};
+        String words[]={"the","a","their","but","any"};
         //Inserting words in Trie
         insertTrie(words);
       
