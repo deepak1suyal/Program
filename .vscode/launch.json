@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "creatingtrei",
+            "request": "launch",
+            "mainClass": "Trie.creatingtrei",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "bublesort",
+            "request": "launch",
+            "mainClass": "bublesort",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "buble",
+            "request": "launch",
+            "mainClass": "buble",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "fibonachi",
+            "request": "launch",
+            "mainClass": "Recursion.fibonachi",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "printName",
+            "request": "launch",
+            "mainClass": "Recursion.printName",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "localdate",
+            "request": "launch",
+            "mainClass": "DateandTime.localdate",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "lamada",
             "request": "launch",
             "mainClass": "LamdaExpress.lamada",

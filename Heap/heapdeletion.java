@@ -104,7 +104,7 @@ public class heapdeletion {
                                 b.add(10);
                                  b.add(50);
                           b.add(60);
-System.out.println(b);
+           System.out.println(b);
   /* deletion(b,0);
       System.out.println(b);*/  
      for(int i=6;i>0;i--)
