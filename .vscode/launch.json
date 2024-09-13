@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "uniquesubstring",
+            "request": "launch",
+            "mainClass": "Trie.uniquesubstring",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "stringprefix",
+            "request": "launch",
+            "mainClass": "Trie.stringprefix",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "creatingtrei",
             "request": "launch",
             "mainClass": "Trie.creatingtrei",

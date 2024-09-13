@@ -13,7 +13,7 @@ public nodeT() {
 }    
 }
 
-public class creatingtrei {
+public class stringprefix {
     static  nodeT head=new nodeT();
     static nodeT ch=head;
 //Inserting element
@@ -49,13 +49,25 @@ public static boolean searchword(String word){
     return false;
 }
 //main function
+
+public static boolean startWith(String prefix){
+nodeT itra=ch;
+for(int i=0;i<prefix.length();i++){
+    if(itra.child[prefix.charAt(i)-'a']==null){
+        
+      return false;
+    }
+    else{
+        itra=itra.child[prefix.charAt(i)-'a'];
+    }
+}
+return true;
+}
     public static void main(String[] args) {
-    
-        String words[]={"the","a","their","but","any"};
+        String words[]={"the","apple","app","their","but","any"};
         //Inserting words in Trie
         insertTrie(words);
+       System.out.println(startWith("ap"));
 
-       System.out.println(searchword("their"));
-   
     }
 }
