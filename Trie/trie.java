@@ -11,8 +11,8 @@ class node {
     }    
     }
 public class trie {
-    static  node head=new node();
-    static node ch=head;
+      node head=new node();
+      node ch=head;
 //Inserting element
     public void insertTrie(String words){
         node start=head;
@@ -20,11 +20,11 @@ public class trie {
           
             for(int i=0;i<words.length();i++){
                 int index=words.charAt(i)-'a';
-                if(head.child[index]==null)
-                head.child[index]=new node();
+                if(start.child[index]==null)
+                start.child[index]=new node();
                 if(i==words.length()-1)
-                head.child[index].endword=true;
-                head=head.child[index];
+                start.child[index].endword=true;
+                start=start.child[index];
                 
             }
         }
