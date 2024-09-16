@@ -6,10 +6,8 @@ public class Subsequence {
     static boolean flag=false;
     static void subprint(ArrayList<ArrayList> AL,ArrayList<Character> I,String s,int i){
         if(i>=s.length())
-        {ArrayList<Character> c=new ArrayList<>();
-            for (Character i2 : I) {
-                c.add(i2);
-            }
+        {ArrayList<Character> c=new ArrayList<>(I);
+          
             AL.add(c); 
              
             return;
