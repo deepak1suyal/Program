@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Subsequence",
+            "request": "launch",
+            "mainClass": "Recursion.Subsequence",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "subSequence",
+            "request": "launch",
+            "mainClass": "Recursion.subSequence",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
+            "name": "subsequence",
+            "request": "launch",
+            "mainClass": "Recursion.subsequence",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "uniquesubstring",
             "request": "launch",
             "mainClass": "Trie.uniquesubstring",

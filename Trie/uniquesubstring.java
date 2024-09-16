@@ -1,8 +1,6 @@
 package Trie;
 
 public class uniquesubstring {
-
-
    public static int countusubstring(node r ){
       if(r==null)
       return 0;
@@ -25,7 +23,7 @@ public class uniquesubstring {
       t.insertTrie(suffix);
       System.out.println(suffix);
    }
-   System.out.println(t.searchword("baba"));
+   
    System.out.println(countusubstring(t.head)); 
    } 
 }
