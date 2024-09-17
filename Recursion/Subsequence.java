@@ -7,7 +7,6 @@ public class Subsequence {
     static void subprint(ArrayList<ArrayList> AL,ArrayList<Character> I,String s,int i){
         if(i>=s.length())
         {ArrayList<Character> c=new ArrayList<>(I);
-          
             AL.add(c); 
              
             return;
@@ -24,3 +23,4 @@ public class Subsequence {
       System.out.println(AL);
     }
 }
+ 
