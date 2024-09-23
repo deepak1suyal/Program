@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "missing",
+            "request": "launch",
+            "mainClass": "GeeksforGeeks.missing",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "Quick",
             "request": "launch",
             "mainClass": "Recursion.Quick",
