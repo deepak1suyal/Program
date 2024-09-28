@@ -5,18 +5,20 @@ class Solve {
     int[] findTwoElement(int arr[]) {
         // code here
         int ans[]=new int[2];
-        int s1=0,s2=0,s3=0;
+        double s1=0,s2=0,s3=0,s4=0;
         for(int i=0;i<arr.length;i++){
-            s1^=arr[i];
+            s1+=Math.pow(arr[i],2);
             s2+=arr[i];
             s3+=i;
+            s4+=Math.pow(i,2);
         }
         s3+=arr.length;
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(s3);
-        ans[0]=(s2-s1)/2;
-        ans[1]=(s3-(s2-ans[0]));
+        s4+=Math.pow(arr.length,2);
+        int x=(int)(s3-s2);//a-b
+        int y=(int)((s4-s1)/x);//a^2-b^2
+        
+        ans[1]=(x+y)/2;
+        ans[0]=(ans[1]-x);
         return ans;
     }
 }
