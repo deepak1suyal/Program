@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.arrayList",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "minimalcost",
             "request": "launch",
             "mainClass": "dp.minimalcost",

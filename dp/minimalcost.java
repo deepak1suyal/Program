@@ -1,34 +1,42 @@
 package dp;
 
 class Solution {
-    static  int ans=Integer.MAX_VALUE;
-     
-     static void fn(int k,int arr[],int i,int sum){
-         
-         if(i==arr.length-1){
-              ans=Math.min(ans,sum);
-            return;
-         }
+   
+    
+    static int fn(int k,int arr[],int i,int sum,int ar[]){
         
-         for(int j=1;j<=k;j++){
-             if(i+j<arr.length){
-                
-             fn(k,arr,i+j, sum+Math.abs(arr[i+j]-arr[i]));
-                
-             }
-             
-         }
-        
+        if(i==arr.length-1){
          
-     }
-     
-     public int minimizeCost(int k, int arr[]) {
-         // code here
-         fn(k,arr,0,0);
-      return ans;
-     }
- }
- 
+           return 0;
+        }
+        int ans=Integer.MAX_VALUE;
+        for(int j=1;j<=k;j++){
+            if(ar[i]!=Integer.MAX_VALUE)
+            return ar[i];
+            if(i+j<arr.length){
+            
+        int   s=Math.abs(arr[i+j]-arr[i])+fn(k,arr,i+j, sum,ar);
+               
+               ans=Math.min(ans,s);
+               
+            }
+
+        }
+       return ar[i] =ans;
+    }
+    
+    public int minimizeCost(int k, int arr[]) {
+        // code here
+        int ar[]=new int[arr.length];
+        for(int i=0;i<arr.length;i++){
+            
+                ar[i]=Integer.MAX_VALUE;
+           
+        }
+        
+     return fn(k,arr,0,0,ar);
+    }
+}
 public class minimalcost {
     public static void main(String[] args) {
         int arr[]={
