@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nQueen",
+            "request": "launch",
+            "mainClass": "Recursion.nQueen",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "permutation",
             "request": "launch",
             "mainClass": "Recursion.permutation",
