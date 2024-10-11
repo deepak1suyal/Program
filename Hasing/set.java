@@ -9,6 +9,7 @@ public class set {
       hs.add("Olie");
       hs.add("Alok");
       System.out.println(hs.contains("Amrit"));
-
+      hs.remove("Amrit");
+      System.out.println(hs.contains("Amrit"));
     }
 }

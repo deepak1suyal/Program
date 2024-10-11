@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "swap2number",
+            "request": "launch",
+            "mainClass": "BitManupilation.swap2number",
+            "projectName": "java_d5145e64"
+        },
+        {
+            "type": "java",
             "name": "nQueen",
             "request": "launch",
             "mainClass": "Recursion.nQueen",
