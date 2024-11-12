@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringbel",
+            "request": "launch",
+            "mainClass": "String.stringbel",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.arrayList",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "towdarray",
+            "request": "launch",
+            "mainClass": "Array.towdarray",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
             "name": "swap2number",
             "request": "launch",
             "mainClass": "BitManupilation.swap2number",
