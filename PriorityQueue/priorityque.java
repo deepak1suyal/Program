@@ -15,7 +15,7 @@ q.add(80);
 q.add(60);
 q.add(55);
 System.out.println(q);
-q.remove();
+System.out.println(q.remove());
 
 System.out.println(q);
 

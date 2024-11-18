@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotatearray",
+            "request": "launch",
+            "mainClass": "Array.rotatearray",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "priorityque",
+            "request": "launch",
+            "mainClass": "priorityque",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
             "name": "stringbel",
             "request": "launch",
             "mainClass": "String.stringbel",
