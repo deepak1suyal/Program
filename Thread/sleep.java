@@ -37,6 +37,12 @@ public class sleep {
     public static void main(String[] args) {
         Thread a=new Thread(new app3());
         a.start();
+        try {
+            a.join();
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         Thread a1=new Thread(new app4());
         a1.start();
     }

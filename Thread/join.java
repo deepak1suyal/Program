@@ -30,7 +30,7 @@ class app5 implements Runnable{
 
 }
 public class join {
-    public static void main(String[] args) throws InterruptedException {
+   static public void main(String[] args) throws InterruptedException {
         Thread a=new Thread(new app5());
         a.start();
         a.join();

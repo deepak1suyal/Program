@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "spiral2d",
+            "request": "launch",
+            "mainClass": "Array.spiral2d",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "bookprblem",
+            "request": "launch",
+            "mainClass": "GeeksforGeeks.bookprblem",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "sleep",
+            "request": "launch",
+            "mainClass": "Thread.sleep",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "join",
+            "request": "launch",
+            "mainClass": "Thread.join",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "thread",
+            "request": "launch",
+            "mainClass": "Thread.thread",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "s2d",
+            "request": "launch",
+            "mainClass": "Array.s2d",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "searchcycle",
+            "request": "launch",
+            "mainClass": "GeeksforGeeks.searchcycle",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "sameletter",
+            "request": "launch",
+            "mainClass": "Hasing.sameletter",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "LoopMaster",
+            "request": "launch",
+            "mainClass": "tcscodevita.LoopMaster",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "sob",
+            "request": "launch",
+            "mainClass": "tcscodevita.sob",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
             "name": "rotatearray",
             "request": "launch",
             "mainClass": "Array.rotatearray",
