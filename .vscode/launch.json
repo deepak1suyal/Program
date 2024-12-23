@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "array2dsort",
+            "request": "launch",
+            "mainClass": "Comparator.array2dsort",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
             "name": "minumumsum",
             "request": "launch",
             "mainClass": "Array.minumumsum",

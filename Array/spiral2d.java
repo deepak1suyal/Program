@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 class spiral {
     // Function to return a list of integers denoting spiral traversal of matrix.
@@ -39,11 +40,16 @@ class spiral {
 }
 
 public class spiral2d {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         spiral s=new spiral();
-        int arr[][]={{1, 2, 3 ,4 ,5 ,6},
-{7, 8, 9, 10, 11, 12},{
-13 ,14 ,15 ,16 ,17 ,18}};
+        int arr[][]={{9, 2, 3 ,4 ,5 ,6},
+
+{13 ,14 ,15 ,16 ,17 ,18},{7, 8, 9, 10, 11, 12}
+};
 System.out.println(s.spirallyTraverse(arr));
+
     }
 }
