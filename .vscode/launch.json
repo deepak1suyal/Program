@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binarysearchflower",
+            "request": "launch",
+            "mainClass": "Array.binarysearchflower",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "fillcircle",
+            "request": "launch",
+            "mainClass": "Array.fillcircle",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
             "name": "array2dsort",
             "request": "launch",
             "mainClass": "Comparator.array2dsort",
