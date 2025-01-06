@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sum3",
+            "request": "launch",
+            "mainClass": "Array.sum3",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "augmantationstring",
+            "request": "launch",
+            "mainClass": "String.augmantationstring",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
+            "name": "sortst",
+            "request": "launch",
+            "mainClass": "String.sortst",
+            "projectName": "Java-Program_8dd5af96"
+        },
+        {
+            "type": "java",
             "name": "binarysearchflower",
             "request": "launch",
             "mainClass": "Array.binarysearchflower",
