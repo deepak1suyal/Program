@@ -23,8 +23,11 @@ int p=0;
                     int rightValue = arr[l];
                     while (j <= l && arr[j] == leftValue) {j++;
                     o++;}
-                    while (j < l && arr[l] == rightValue) {l--;
+                    while (j <= l && arr[l] == rightValue) {l--;
                     p++;}
+                    if(leftValue==rightValue)
+                    count+=leftValue*(leftValue-1)/2;
+                    else
 count+=o*p;
                 } else if (sum < target) {
                     j++;
